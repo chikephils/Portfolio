@@ -100,7 +100,7 @@
   .content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 50px;
   }
 
   .title {
@@ -127,7 +127,7 @@
 
   .history {
     width: 100%;
-    gap: 9px;
+    gap:60px;
   }
 
   .historyItemDetails h3 {
