@@ -9,18 +9,15 @@ import { Projects } from "./components/Projects/Projects";
 
 function App() {
   return (
-    <div className={styles.container}>
-    <Navbar />
-    <main className={styles.content}>
+    <div className={styles.App}>
+      <Navbar />
       <Hero />
       <About />
       <Experience />
       <Education />
       <Projects />
       <Contact />
-    </main>
-  </div>
-   
+    </div>
   );
 }
 
