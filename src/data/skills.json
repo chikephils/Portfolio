@@ -1,0 +1,30 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "Assets/html.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "Assets/css.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "Assets/react.png"
+    },
+    {
+        "title": "Node",
+        "imageSrc": "Assets/nodejs.png"
+    },
+    {
+        "title": "DSA",
+        "imageSrc": "Assets/data-structures.png"
+    },
+    {
+        "title": "MongoDB",
+        "imageSrc": "Assets/mongodb.png"
+    },
+    {
+        "title": "Tailwind",
+        "imageSrc": "Assets/tailwind.png"
+    }
+]

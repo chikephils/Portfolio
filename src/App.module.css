@@ -1,0 +1,35 @@
+@import "./vars.css";
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.content {
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: overflow-y 0.3s ease;
+  background-color: var(--color-bg);
+}
+
+.content:hover {
+  overflow-y: auto; 
+}
+
+.content::-webkit-scrollbar {
+  width: 5px; 
+}
+
+
+.content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px; 
+}
+
+/* Handle on hover */
+.content::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

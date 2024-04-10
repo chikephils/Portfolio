@@ -1,0 +1,35 @@
+[
+    {
+        "role": "MERN Stack Developer",
+        "organisation": "GOT Information Technology",
+        "startDate": "Sept, 2021",
+        "endDate": "Present",
+        "experiences": [
+            "Worked on MERN stack projects",
+            "Created various React Projects",
+            "Built Optimized APIs"
+        ]
+    },
+    {
+        "role": "Javascript/Web Developer",
+        "organisation": "GOT Information Technology",
+        "startDate": "Aug 2020",
+        "endDate": "Sep, 2021",
+        "experiences": [
+            "Interacted with RESTFUL APIs",
+            "Designed responsive Web Apps",
+            "Helped in building React Components"
+        ]
+    },
+    {
+        "role": "Javascript/Web Developer INTERN",
+        "organisation": "GOT Information Technology",
+        "startDate": "Aug, 2019",
+        "endDate": "Aug, 2020",
+        "experiences": [
+            "Worked on HTML Websites",
+            "Helped with javascript codes for Websites",
+            "Mastered the concepts of HTML and Javascript"
+        ]
+    }
+]
