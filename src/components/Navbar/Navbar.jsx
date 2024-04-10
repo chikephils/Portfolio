@@ -15,9 +15,9 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${isSticky && styles.sticky}`}>
       <a className={styles.title} href="/">
         {" "}
         Portfolio
