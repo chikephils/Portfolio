@@ -2,6 +2,7 @@
 
 .navbar {
   position: fixed;
+  height: 90px;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,17 +14,14 @@
   background-color: var(--color-bg);
   color: white;
   padding-bottom: 20px;
-  
-}
-
-.sticky {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
 }
 
 .navbar a:hover {
   color: #007bff;
 }
+/* .navbar a:active {
+  color: #007bff;
+} */
 
 .title {
   font-size: 30px;

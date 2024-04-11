@@ -2,9 +2,10 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .title {
@@ -127,7 +128,7 @@
 
   .history {
     width: 100%;
-    gap:60px;
+    gap: 60px;
   }
 
   .historyItemDetails h3 {
@@ -137,6 +138,5 @@
 
   .historyItemDetails ul {
     font-size: 20px;
-  
   }
 }

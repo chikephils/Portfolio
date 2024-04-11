@@ -1,6 +1,35 @@
-.App {
-  background-color: var(--color-bg);
+@import "./vars.css";
+
+.container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg);
   overflow: hidden;
+}
+.content {
+  margin-top: 100px;
+  width: 100%;
+  overflow: hidden;
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+}
+
+.content::-webkit-scrollbar { /* Chrome & Safari */
+  width: 5px; /* Adjust width for scrollbar thickness */
+  background-color: transparent; /* Optional, remove default background */
+}
+
+.content::-webkit-scrollbar-thumb { /* Chrome & Safari */
+  background-color: #333; /* Dark color for thumb (may not work well) */
+}
+
+.content::-moz-scrollbar { /* Firefox */
+  width: 5px; /* Adjust width for scrollbar thickness */
+  background-color: transparent; /* Optional, remove default background */
+}
+
+.content::-moz-scrollbar-thumb { /* Firefox */
+  background-color: #333; /* Dark color for thumb (may not work well) */
 }

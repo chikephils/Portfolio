@@ -5,10 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 120px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .content {
@@ -87,6 +88,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+   
   }
 
   .content {

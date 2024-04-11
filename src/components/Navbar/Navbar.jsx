@@ -1,27 +1,18 @@
 import React, { useEffect, useState } from "react";
 import styles from "../Navbar/Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isSticky, setIsSticky] = useState(false);
-
-  const handleScroll = () => {
-    const scrollTop = window.scrollY;
-    setIsSticky(scrollTop > 50);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+ 
 
   return (
-    <nav className={`${styles.navbar} ${isSticky && styles.sticky}`}>
-      <a className={styles.title} href="/">
-        {" "}
+    <nav className={styles.navbar}>
+      <Link to="/" className={styles.title}>
         Portfolio
-      </a>
+      </Link>
+
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -38,19 +29,19 @@ const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <Link to="/experience">Experience</Link>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <Link to="/education">Education</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#contacts">Contact</a>
+            <Link to="/contacts">Contact</Link>
           </li>
         </ul>
       </div>

@@ -6,17 +6,22 @@ import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div className={styles.container}>
       <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Education />
-      <Projects />
-      <Contact />
+      <main className={styles.content}>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contacts" element={<Contact />} />
+        </Routes>
+      </main>
     </div>
   );
 }
