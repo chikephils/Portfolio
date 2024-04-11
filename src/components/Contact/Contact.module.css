@@ -4,8 +4,7 @@
   color: var(--color-text);
   background-color: var(--color-secondary);
   display: flex;
-  justify-items: center;
-  align-items: center;
+  margin-top: 50px;
   flex-direction: row;
   justify-content: space-evenly;
   padding-left: 5%;

@@ -2,7 +2,7 @@
 
 .container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: var(--color-bg);
@@ -16,20 +16,24 @@
   overflow-y: scroll;
 }
 
-.content::-webkit-scrollbar { /* Chrome & Safari */
+.content::-webkit-scrollbar {
+  /* Chrome & Safari */
   width: 5px; /* Adjust width for scrollbar thickness */
   background-color: transparent; /* Optional, remove default background */
 }
 
-.content::-webkit-scrollbar-thumb { /* Chrome & Safari */
+.content::-webkit-scrollbar-thumb {
+  /* Chrome & Safari */
   background-color: #333; /* Dark color for thumb (may not work well) */
 }
 
-.content::-moz-scrollbar { /* Firefox */
+.content::-moz-scrollbar {
+  /* Firefox */
   width: 5px; /* Adjust width for scrollbar thickness */
   background-color: transparent; /* Optional, remove default background */
 }
 
-.content::-moz-scrollbar-thumb { /* Firefox */
+.content::-moz-scrollbar-thumb {
+  /* Firefox */
   background-color: #333; /* Dark color for thumb (may not work well) */
 }
