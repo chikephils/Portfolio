@@ -2,15 +2,12 @@
     {
         "title": "Multi-Vendor Shopping Web App",
         "imageSrc": "Assets/projetImage.png",
-        "description": "This is a responsive Mern stack Multi-vendor Shopping Web App, that allows multiple sellers and buyers to own an account and also send & receive messages",
+        "description": "A responsive Mern stack Multi-vendor Shopping Web App.",
         "skills": [
             "React",
             "Express",
             "Node",
-            "Mongo db",
-            "Tailwind",
-            "socket.io",
-            "cloudinary"
+            "MongoDB"
         ],
         "demo": "https://chireva-frontend.vercel.app",
         "source": "https://github.com/chikephils/chireva"

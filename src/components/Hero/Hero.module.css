@@ -54,7 +54,7 @@
 .heroImg {
   width: 25%;
   z-index: 1;
-  border-radius: 45%;
+  border-radius: 50%;
 }
 
 .topBlur {
@@ -108,7 +108,7 @@
   }
 
   .heroImg {
-    width: 50%;
+    width: 40%;
   }
 
   .contactBtn {
