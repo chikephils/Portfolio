@@ -1,35 +1,29 @@
 [
     {
-        "role": "MERN Stack Developer",
-        "organisation": "GOT Information Technology",
-        "startDate": "Sept, 2021",
-        "endDate": "Present",
-        "experiences": [
-            "Worked on MERN stack projects",
-            "Created various React Projects",
-            "Built Optimized APIs"
-        ]
-    },
-    {
         "role": "Javascript/Web Developer",
         "organisation": "GOT Information Technology",
-        "startDate": "Aug 2020",
-        "endDate": "Sep, 2021",
+        "startDate": "Aug 2022",
+        "endDate": "Present",
         "experiences": [
+            "Built Optimized APIs",
             "Interacted with RESTFUL APIs",
             "Designed responsive Web Apps",
-            "Helped in building React Components"
+            "Helped in building React Components",
+            "Collaborating with other Software Engineers to rebuild frontend applications built with HTML to the one built with React",
+            "Following proper and conventional git team workflows and effectively communicating with the team when working independently",
+            "Collaborating with the back-end team to integrate with Node.js, Express middleware and MongoDB"
         ]
     },
     {
-        "role": "Javascript/Web Developer INTERN",
+        "role": "Software Engineer INTERN",
         "organisation": "GOT Information Technology",
-        "startDate": "Aug, 2019",
-        "endDate": "Aug, 2020",
+        "startDate": "Aug, 2020",
+        "endDate": "Aug, 2022",
         "experiences": [
-            "Worked on HTML Websites",
-            "Helped with javascript codes for Websites",
-            "Mastered the concepts of HTML and Javascript"
+            "Over 1500+ hours of online course materials with an industry mentor oversight",
+            "More Detailed and experimental Computer science fundamentals in Data Structures and algorithms, time and space complexity.",
+            "Leveraged full-stack languages and libraries including HTML, CSS, JavaScript, React, Express, Node.js and MongoDB",
+            "Worked on HTML Websites using CSS and JavaScript"
         ]
     }
 ]
