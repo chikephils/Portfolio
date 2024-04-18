@@ -13,8 +13,8 @@
         "source": "https://github.com/chikephils/chireva"
     },
     {
-        "title": "Project B",
-        "imageSrc": "Assets/image.png",
+        "title": "Home Rentals App",
+        "imageSrc": "Assets/rentalImage.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
             "React",
@@ -22,8 +22,8 @@
             "Node",
             "Sass"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://rentals-blond.vercel.app/",
+        "source": "https://github.com/chikephils/rentals"
     },
     {
         "title": "Project C",
