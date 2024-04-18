@@ -15,12 +15,12 @@
     {
         "title": "Home Rentals App",
         "imageSrc": "Assets/rentalImage.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "description": "A Responsive Web App for Home Rentals, Sales and Shot Stay.",
         "skills": [
             "React",
             "Express",
             "Node",
-            "Sass"
+            "MongoDB"
         ],
         "demo": "https://rentals-blond.vercel.app/",
         "source": "https://github.com/chikephils/rentals"
