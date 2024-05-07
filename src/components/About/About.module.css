@@ -35,7 +35,8 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  /* gap: 50px; */
+ 
 }
 
 .aboutItem {
@@ -53,6 +54,7 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
+  margin-bottom: 20px;
 }
 
 .aboutItem:hover {

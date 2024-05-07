@@ -25,13 +25,14 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 50px;
+  /* gap: 50px; */
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  /* 5px; */
+  margin-bottom: 20px;
 }
 
 .link a {
@@ -40,18 +41,20 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    /* gap: 23px; */
   }
 
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
   }
 
   .text h2 {
