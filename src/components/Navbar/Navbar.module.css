@@ -52,7 +52,7 @@
   text-decoration: none;
 }
 .menuItems a:active {
-   color: #007bff;
+  color: #007bff;
 }
 
 @media screen and (max-width: 830px) {
@@ -81,7 +81,7 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
+    gap: 0px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
     background: linear-gradient(
@@ -92,6 +92,9 @@
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     margin-right: 20px;
+  }
+  .menuItems li {
+    margin-bottom: 17px;
   }
 
   .menuOpen {

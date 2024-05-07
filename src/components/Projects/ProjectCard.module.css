@@ -10,7 +10,6 @@
   max-width: 300px;
   height: 500px;
   overflow-y: scroll;
-
 }
 
 .image {
@@ -66,8 +65,13 @@
 }
 
 .container::-webkit-scrollbar {
-    width: 5px; 
-    height: 5px; 
-    background-color: transparent; 
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    margin-bottom: 50px;
   }
-  
+}
