@@ -9,8 +9,14 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Oreva Philips Okumor</h1>
         <p className={styles.description}>
-          I'm a Mern stack Developer with over 3 years experience in React, 4
-          years experience in javascript and 2 years experience in Node.js
+          Experienced Software Engineer with over 3 years in JavaScript, 3 years
+          in React, and 2 years in Node.js. Proven problem-solving skills,
+          critical thinking, and analytics. Effective leader and collaborator
+          with project management expertise. Passionate about building
+          responsive web experiences using future-friendly technologies like
+          React, Node.js, Express, and MongoDB. Strong background as a
+          Professional Football Player, bringing adaptability, teamwork, and
+          effective communication skills to the table.
         </p>
         <a href="mailto: chikephils@gmail.com" className={styles.contactBtn}>
           {" "}
