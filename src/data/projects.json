@@ -24,5 +24,18 @@
         ],
         "demo": "https://chireva-rentals.vercel.app/",
         "source": "https://github.com/chikephils/rentals"
+    },
+    {
+        "title": "OrevaPedia",
+        "imageSrc": "Assets/orevapedia.png",
+        "description": "A Responsive Social media Web Application.",
+        "skills": [
+            "React",
+            "Express",
+            "Node",
+            "MongoDB"
+        ],
+        "demo": "https://orevapedia.vercel.app/",
+        "source": "https://github.com/chikephils/Orevapedia"
     }
 ]
