@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.2.10",
+    "@fontsource/englebert": "^5.2.10",
+    "@fontsource/lily-script-one": "^5.2.8",
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
     "@testing-library/jest-dom": "^5.17.0",

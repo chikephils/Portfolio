@@ -24,11 +24,12 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   text-decoration: none;
+  font-family: var(--font-Lily);
   color: var(--color-text);
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .menu {
@@ -50,6 +51,8 @@
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  font-family: var(--font-englebert);
+  font-weight: 400;
 }
 .menuItems a:active {
   color: #007bff;
@@ -89,12 +92,16 @@
       rgba(5, 84, 231, 0.2) 0%,
       rgb(12, 50, 119) 10%
     );
-    padding: 24px 33px;
+    padding: 20px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     margin-right: 20px;
   }
+  
+.menuItems a {
+  font-size: 18px;
+}
   .menuItems li {
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
 
   .menuOpen {

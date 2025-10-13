@@ -1,41 +1,26 @@
 [
-    {
-        "title": "Multi-Vendor Shopping Web App",
-        "imageSrc": "Assets/projetImage.png",
-        "description": "A responsive Mern stack Multi-vendor Shopping Web App.",
-        "skills": [
-            "React",
-            "Express",
-            "Node",
-            "MongoDB"
-        ],
-        "demo": "https://chireva-shops.vercel.app",
-        "source": "https://github.com/chikephils/chireva"
-    },
-    {
-        "title": "Home Rentals App",
-        "imageSrc": "Assets/rentalImage.png",
-        "description": "A Responsive Web App for Home Rentals, Sales and Shot Stay.",
-        "skills": [
-            "React",
-            "Express",
-            "Node",
-            "MongoDB"
-        ],
-        "demo": "https://chireva-rentals.vercel.app/",
-        "source": "https://github.com/chikephils/rentals"
-    },
-    {
-        "title": "OrevaPedia",
-        "imageSrc": "Assets/orevapedia.png",
-        "description": "A Responsive Social media Web Application.",
-        "skills": [
-            "React",
-            "Express",
-            "Node",
-            "MongoDB"
-        ],
-        "demo": "https://orevapedia.vercel.app/",
-        "source": "https://github.com/chikephils/Orevapedia"
-    }
+  {
+    "title": "Multi-Vendor Shopping Web App",
+    "imageSrc": "Assets/Screenshot (18).png",
+    "description": "A responsive Mern stack Multi-vendor Shopping Web App.",
+    "skills": ["MERN","Tailwind", "Redux","Socket", "nodemailer"],
+    "demo": "https://chireva-shops.vercel.app",
+    "source": "https://github.com/chikephils/chireva"
+  },
+  {
+    "title": "Chireva Multi-User Home Rentals App",
+    "imageSrc": "Assets/Screenshot (19).png",
+    "description": "A Responsive Web App for Home Rentals, Sales and Short Stay.",
+    "skills": ["MERN", "Axios", "SASS", "Cloudinary", "Material UI"],
+    "demo": "https://chireva-rentals.vercel.app/",
+    "source": "https://github.com/chikephils/rentals"
+  },
+  {
+    "title": "OrevaPedia social media Web App",
+    "imageSrc": "Assets/Screenshot (20).png",
+    "description": "A Responsive Social media Web Application.",
+    "skills": ["MERN", "bcypt", "yup", "Formic", "React dropzone"],
+    "demo": "https://orevapedia.vercel.app/",
+    "source": "https://github.com/chikephils/Orevapedia"
+  }
 ]

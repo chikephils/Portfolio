@@ -1,29 +1,41 @@
 [
-    {
-        "role": "Software Engineer",
-        "organisation": "GOT Information Technology",
-        "startDate": "Aug 2022",
-        "endDate": "Present",
-        "experiences": [
-            "Built Optimized APIs",
-            "Interacted with RESTFUL APIs",
-            "Designed responsive Web Apps",
-            "Helped in building React Components",
-            "Collaborating with other Software Engineers to rebuild frontend applications built with HTML to the one built with React",
-            "Following proper and conventional git team workflows and effectively communicating with the team when working independently",
-            "Collaborating with the back-end team to integrate with Node.js, Express middleware and MongoDB"
-        ]
-    },
-    {
-        "role": "Software Engineer INTERN",
-        "organisation": "GOT Information Technology",
-        "startDate": "Aug, 2020",
-        "endDate": "Aug, 2022",
-        "experiences": [
-            "Over 1500+ hours of online course materials with an industry mentor oversight",
-            "More Detailed and experimental Computer science fundamentals in Data Structures and algorithms, time and space complexity.",
-            "Leveraged full-stack languages and libraries including HTML, CSS, JavaScript, React, Express, Node.js and MongoDB",
-            "Worked on HTML Websites using CSS and JavaScript"
-        ]
-    }
+  {
+    "role": "Software Engineer (MERN Stack Intern)",
+    "organisation": "Loubby AI",
+    "startDate": "June 2025",
+    "endDate": "September 2025",
+    "experiences": [
+      "Contributed and maintained features across frontend and backend using React.js, Next.js, Tailwind CSS, Styled Components, Node.js, and MongoDB.",
+      "Collaborated closely with designers, converting Figma designs into responsive, production-ready code.",
+      "Implemented new card designs for jobs, challenges, and gigs postings, enabling the display of opportunities on the public browse.loubby.ai page as well as on the employee and employer web pages.",
+      "Collaborated with senior developers, actively participated in daily stand-ups, and incorporated feedback to improve code quality and delivery.",
+      "Learned and configured Docker to set up Redis for caching and session handling.",
+      "Opened and managed pull requests, following Git best practices to ensure smooth code reviews and deployments.",
+      "Worked in an Agile environment, delivering incremental features and bug fixes while aligning closely with design and product teams."
+    ]
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "GOT Information Technology",
+    "startDate": "August 2022",
+    "endDate": "Freelancer",
+    "experiences": [
+      "Rebuilt legacy frontend interfaces using React.js, Tailwind CSS and modern component-based architecture, enhancing UI responsiveness and maintainability.",
+      "Collaborated with backend teams to integrate RESTful APIs using Node js Express.js and MongoDB, ensuring seamless data exchange.",
+      "Did performance optimizations that reduced load time by up to 30%, using lazy loading and memoization techniques",
+      "Adopted industry-standard Git workflows, enhancing code collaboration and version control across a distributed team."
+    ]
+  },
+  {
+    "role": "Software Engineer (Intern)",
+    "organisation": "GOT Information Technology",
+    "startDate": "August, 2020",
+    "endDate": "August, 2022",
+    "experiences": [
+      "Completed over 1500 hours of hands-on training with mentorship, mastering full-stack development using the MERN stack.",
+      "More Detailed and experimental Computer science fundamentals in Data Structures and algorithms, time and space complexity.",
+      "Leveraged full-stack languages and libraries including HTML, CSS, JavaScript, React, Express, Node.js and MongoDB",
+      "Built and deployed full-stack test projects."
+    ]
+  }
 ]

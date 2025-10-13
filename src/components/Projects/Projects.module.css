@@ -30,4 +30,7 @@
   .projects {
     gap: 0px;
   }
+  .title {
+    font-size: 25px;
+  }
 }

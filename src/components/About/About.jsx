@@ -7,36 +7,48 @@ const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}> About</h2>
       <div className={styles.content}>
-        <img src={getImageUrl('Assets/aboutImg.png')} alt="aboutImg" className={styles.aboutImage} />
+        <img
+          src={getImageUrl("Assets/aboutImg.png")}
+          alt="aboutImg"
+          className={styles.aboutImage}
+        />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("Assets/frontend.png")} alt="frontend" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a Frontend Developer with working experience in building responsive and optimized sites.
+                I specialize in building responsive, scalable, and visually
+                engaging interfaces using React.js, JavaScript, and modern UI
+                libraries like Tailwind CSS and Material UI. I focus on
+                performance and accessibility to deliver seamless user
+                experiences.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
             <img src={getImageUrl("Assets/backend.png")} alt="backend" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience in developing fast and optimized rest APIs.
+                I develop efficient and secure RESTful APIs using Node.js,
+                Express, and MongoDB. My goal is to build reliable server-side
+                logic and ensure smooth communication between the frontend and
+                backend for high-performing web applications.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img
-              src={getImageUrl('Assets/javascript.png')}
-              alt="javascript"
-            />
+            <img src={getImageUrl("Assets/javascript.png")} alt="javascript" />
             <div className={styles.aboutItemText}>
-              <h3>Javascript Developer</h3>
+              <h3>JavaScript Developer</h3>
               <p>
-                I have experience working with Javascript and i've built and
-                contributed in various javascript projects.
+                With strong proficiency in modern JavaScript (ES6+), I’ve built
+                and contributed to multiple projects across the MERN stack. I
+                enjoy writing clean, modular, and maintainable code that powers
+                dynamic, interactive web experiences.
               </p>
             </div>
           </li>

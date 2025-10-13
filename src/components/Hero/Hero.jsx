@@ -9,19 +9,30 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Oreva Philips Okumor</h1>
         <p className={styles.description}>
-          Experienced Software Engineer with over 3 years in JavaScript, 3 years
-          in React, and 2 years in Node.js. Proven problem-solving skills,
-          critical thinking, and analytics. Effective leader and collaborator
-          with project management expertise. Passionate about building
-          responsive web experiences using future-friendly technologies like
-          React, Node.js, Express, and MongoDB. Strong background as a
-          Professional Football Player, bringing adaptability, teamwork, and
-          effective communication skills to the table.
+          A Software Engineer passionate about creating modern, scalable, and
+          user-friendly web applications. With over 3 years of experience
+          working with the MERN stack (React, Node.js, Express, MongoDB), I love
+          turning ideas into clean, efficient, and responsive digital
+          experiences. I thrive in Agile teams, enjoy collaborating across
+          design and development, and focus on delivering interfaces that don’t
+          just work — they feel great to use. Every project I build is guided by
+          one goal: to combine performance, usability, and creativity in a way
+          that makes technology feel seamless.
         </p>
-        <a href="mailto: chikephils@gmail.com" className={styles.contactBtn}>
-          {" "}
-          Contact Me
-        </a>
+        <div className={styles.buttonContainer}>
+          <a href="mailto: chikephils@gmail.com" className={styles.contactBtn}>
+            {" "}
+            Contact Me
+          </a>
+          <a
+            href="/Oreva_resume_Lines.pdf"
+            className={styles.resumeBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("Assets/displaypic.jpg")}

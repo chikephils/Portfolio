@@ -1,15 +1,9 @@
 [
     
     {
-        "name": "Novena University Ogume",
-        "qualification": "BSC",
-        "description": "Bachelor's Degree in Computer Science",
-        "year": "2013"
-    },
-    {
-        "name": "Novena College Kwale",
-        "qualification": "SSCE",
-        "description": "Senior Secondary Certificate Examination",
-        "year": "2009"
+        "name": "Novena University, Delta State, Nigeria",
+        "qualification": "B.Sc.",
+        "description": "Computer Science",
+        "year": "2009 - 2013"
     }
 ]

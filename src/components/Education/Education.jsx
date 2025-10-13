@@ -13,7 +13,7 @@ const Education = () => {
               <li className={styles.educationItem} key={id}>
                 <div className={styles.educationItemDetails}>
                   <h2>{educationItem.name}</h2>
-                  <h3>{educationItem.description}</h3>
+                  <h3>{educationItem?.qualification} {educationItem.description}</h3>
                   <p>{educationItem.year}</p>
                 </div>
               </li>

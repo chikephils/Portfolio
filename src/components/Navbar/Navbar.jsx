@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link to="/" className={styles.title}>
-        Portfolio
+        Oreva..
       </Link>
 
       <div className={styles.menu}>
