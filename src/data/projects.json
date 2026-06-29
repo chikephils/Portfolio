@@ -3,9 +3,9 @@
     "title": "Multi-Vendor Shopping Web App",
     "imageSrc": "Assets/Screenshot (18).png",
     "description": "A responsive Mern stack Multi-vendor Shopping Web App.",
-    "skills": ["MERN","Tailwind", "Redux","Socket", "nodemailer"],
-    "demo": "https://chireva-shops.vercel.app",
-    "source": "https://github.com/chikephils/chireva"
+    "skills": ["MERN", "Tailwind", "Redux", "Socket", "cloudinary", "mailer"],
+    "demo": "https://chireva.vercel.app",
+    "source": "https://github.com/chikephils/Chireva_Shops"
   },
   {
     "title": "Chireva Multi-User Home Rentals App",

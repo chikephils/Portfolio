@@ -1,58 +1,80 @@
-import React from "react";
-import styles from "../About/About.module.css";
 import { getImageUrl } from "../../utils";
 
 const About = () => {
   return (
-    <section className={styles.container} id="about">
-      <h2 className={styles.title}> About</h2>
-      <div className={styles.content}>
-        <img
-          src={getImageUrl("Assets/aboutImg.png")}
-          alt="aboutImg"
-          className={styles.aboutImage}
-        />
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("Assets/frontend.png")} alt="frontend" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I specialize in building responsive, scalable, and visually
-                engaging interfaces using React.js, JavaScript, and modern UI
-                libraries like Tailwind CSS and Material UI. I focus on
-                performance and accessibility to deliver seamless user
-                experiences.
-              </p>
-            </div>
-          </li>
+    <section id="about" className="py-24 bg-[#04152d] relative">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-10 text-white">
+          About <span className="text-[#576cbc]">Me</span>
+        </h2>
 
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("Assets/backend.png")} alt="backend" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I develop efficient and secure RESTful APIs using Node.js,
-                Express, and MongoDB. My goal is to build reliable server-side
-                logic and ensure smooth communication between the frontend and
-                backend for high-performing web applications.
-              </p>
-            </div>
-          </li>
+        <div className="grid md:grid-cols-12 gap-12 items-center">
+          {/* Image */}
+          <div className="md:col-span-5 flex justify-center">
+            <img
+              src={getImageUrl("Assets/aboutImg.png")}
+              alt="About Oreva"
+              className="w-80 h-80 md:w-420 rounded-2xl object-cover shadow-2xl"
+            />
+          </div>
 
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("Assets/javascript.png")} alt="javascript" />
-            <div className={styles.aboutItemText}>
-              <h3>JavaScript Developer</h3>
-              <p>
-                With strong proficiency in modern JavaScript (ES6+), I’ve built
-                and contributed to multiple projects across the MERN stack. I
-                enjoy writing clean, modular, and maintainable code that powers
-                dynamic, interactive web experiences.
-              </p>
+          {/* Content */}
+          <div className="md:col-span-7 space-y-10">
+            <div className="space-y-8">
+              {/* Frontend */}
+              <div className="flex gap-6 group">
+                <div className="w-16 h-16 shrink-0 bg-[#576cbc]/10 rounded-xl flex items-center justify-center text-4xl">
+                  💻
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold mb-2 text-white">
+                    Frontend Developer
+                  </h3>
+                  <p className="text-gray-400 text-[15px] leading-relaxed">
+                    I specialize in building responsive, scalable, and visually
+                    engaging interfaces using React.js, Tailwind CSS, and modern
+                    UI libraries. I focus on performance, accessibility, and
+                    delightful user experiences.
+                  </p>
+                </div>
+              </div>
+
+              {/* Backend */}
+              <div className="flex gap-6 group">
+                <div className="w-16 h-16 shrink-0 bg-[#576cbc]/10 rounded-xl flex items-center justify-center text-4xl">
+                  ⚙️
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold mb-2 text-white">
+                    Backend Developer
+                  </h3>
+                  <p className="text-gray-400 text-[15px] leading-relaxed">
+                    I develop efficient and secure RESTful APIs using Node.js,
+                    Express, and MongoDB. I ensure smooth communication between
+                    frontend and backend for high-performing applications.
+                  </p>
+                </div>
+              </div>
+
+              {/* JavaScript */}
+              <div className="flex gap-6 group">
+                <div className="w-16 h-16 shrink-0 bg-[#576cbc]/10 rounded-xl flex items-center justify-center text-4xl">
+                  🟨
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold mb-2 text-white">
+                    JavaScript Developer
+                  </h3>
+                  <p className="text-gray-400 text-[15px] leading-relaxed">
+                    Strong proficiency in modern JavaScript (ES6+). I build
+                    clean, modular, and maintainable code across the full MERN
+                    stack.
+                  </p>
+                </div>
+              </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
   );

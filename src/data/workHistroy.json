@@ -6,10 +6,10 @@
     "endDate": "September 2025",
     "experiences": [
       "Contributed and maintained features across frontend and backend using React.js, Next.js, Tailwind CSS, Styled Components, Node.js, and MongoDB.",
+      "Writing, Debugging codes and Troubleshooting software issues",
       "Collaborated closely with designers, converting Figma designs into responsive, production-ready code.",
       "Implemented new card designs for jobs, challenges, and gigs postings, enabling the display of opportunities on the public browse.loubby.ai page as well as on the employee and employer web pages.",
-      "Collaborated with senior developers, actively participated in daily stand-ups, and incorporated feedback to improve code quality and delivery.",
-      "Learned and configured Docker to set up Redis for caching and session handling.",
+      "Collaborated closely with developers, actively participated in daily stand-ups, and incorporated feedback to improve code quality and product functionality.",
       "Opened and managed pull requests, following Git best practices to ensure smooth code reviews and deployments.",
       "Worked in an Agile environment, delivering incremental features and bug fixes while aligning closely with design and product teams."
     ]
