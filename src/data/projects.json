@@ -18,7 +18,7 @@
   },
   {
     "title": "School Management System",
-    "imageSrc": "Assets/projetImage.png",
+    "imageSrc": "Assets/Scool_management_image.jpg",
     "description": "A full-stack school management platform with role-based access control, academic structures, student and staff management, course offerings and course registration.",
     "skills": [
       "React 19",
