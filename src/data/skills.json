@@ -1,30 +1,20 @@
 [
-    {
-        "title": "HTML",
-        "imageSrc": "Assets/html.png"
-    },
-    {
-        "title": "CSS",
-        "imageSrc": "Assets/css.png"
-    },
-    {
-        "title": "React",
-        "imageSrc": "Assets/react.png"
-    },
-    {
-        "title": "Node JS",
-        "imageSrc": "Assets/nodejs.png"
-    },
-    {
-        "title": "DSA",
-        "imageSrc": "Assets/data-structures.png"
-    },
-    {
-        "title": "MongoDB",
-        "imageSrc": "Assets/mongodb.png"
-    },
-    {
-        "title": "Tailwind",
-        "imageSrc": "Assets/tailwind.png"
-    }
+  { "title": "HTML", "imageSrc": "Assets/html.png" },
+  { "title": "CSS", "imageSrc": "Assets/css.png" },
+  { "title": "JavaScript", "imageSrc": "Assets/javascript.png" },
+  { "title": "TypeScript", "shortName": "TS" },
+  { "title": "React", "imageSrc": "Assets/react.png" },
+  { "title": "Redux Toolkit", "shortName": "RTK" },
+  { "title": "Tailwind CSS", "imageSrc": "Assets/tailwind.png" },
+  { "title": "Material UI", "shortName": "MUI" },
+  { "title": "Node.js", "imageSrc": "Assets/nodejs.png" },
+  { "title": "Express.js", "shortName": "EX" },
+  { "title": "NestJS", "shortName": "N" },
+  { "title": "MongoDB", "imageSrc": "Assets/mongodb.png" },
+  { "title": "PostgreSQL", "shortName": "PG" },
+  { "title": "Prisma", "shortName": "P" },
+  { "title": "Mongoose", "shortName": "M" },
+  { "title": "Socket.IO", "shortName": "SIO" },
+  { "title": "Git", "shortName": "Git" },
+  { "title": "GitHub", "shortName": "GH" }
 ]

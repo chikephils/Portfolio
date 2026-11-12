@@ -21,20 +21,38 @@ const About = () => {
           {/* Content */}
           <div className="md:col-span-7 space-y-10">
             <div className="space-y-8">
-              {/* Frontend */}
+              {/* Full Stack */}
               <div className="flex gap-6 group">
                 <div className="w-16 h-16 shrink-0 bg-[#576cbc]/10 rounded-xl flex items-center justify-center text-4xl">
                   💻
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold mb-2 text-white">
-                    Frontend Developer
+                    Full-Stack Software Developer
                   </h3>
                   <p className="text-gray-400 text-[15px] leading-relaxed">
-                    I specialize in building responsive, scalable, and visually
-                    engaging interfaces using React.js, Tailwind CSS, and modern
-                    UI libraries. I focus on performance, accessibility, and
-                    delightful user experiences.
+                    I build responsive, scalable, and user-focused web
+                    applications, working across both frontend and backend
+                    development. My experience includes React, TypeScript,
+                    Node.js, NestJS, and modern web technologies.
+                  </p>
+                </div>
+              </div>
+
+              {/* Frontend */}
+              <div className="flex gap-6 group">
+                <div className="w-16 h-16 shrink-0 bg-[#576cbc]/10 rounded-xl flex items-center justify-center text-4xl">
+                  🎨
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold mb-2 text-white">
+                    Frontend Development
+                  </h3>
+                  <p className="text-gray-400 text-[15px] leading-relaxed">
+                    I create intuitive and responsive user interfaces using
+                    React, JavaScript, TypeScript, Tailwind CSS, Redux Toolkit,
+                    and Material UI. I focus on clean component architecture,
+                    usability, and maintainable code.
                   </p>
                 </div>
               </div>
@@ -46,29 +64,12 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold mb-2 text-white">
-                    Backend Developer
+                    Backend & Database Development
                   </h3>
                   <p className="text-gray-400 text-[15px] leading-relaxed">
-                    I develop efficient and secure RESTful APIs using Node.js,
-                    Express, and MongoDB. I ensure smooth communication between
-                    frontend and backend for high-performing applications.
-                  </p>
-                </div>
-              </div>
-
-              {/* JavaScript */}
-              <div className="flex gap-6 group">
-                <div className="w-16 h-16 shrink-0 bg-[#576cbc]/10 rounded-xl flex items-center justify-center text-4xl">
-                  🟨
-                </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-2 text-white">
-                    JavaScript Developer
-                  </h3>
-                  <p className="text-gray-400 text-[15px] leading-relaxed">
-                    Strong proficiency in modern JavaScript (ES6+). I build
-                    clean, modular, and maintainable code across the full MERN
-                    stack.
+                    I develop RESTful APIs, implement authentication and
+                    role-based access control, and manage application data using
+                    Node.js, Express, NestJS, MongoDB, PostgreSQL, and Prisma.
                   </p>
                 </div>
               </div>

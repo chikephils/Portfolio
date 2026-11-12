@@ -24,12 +24,19 @@ const Experience = () => {
                   className="flex flex-col items-center text-center group"
                 >
                   <div className="w-20 h-20 bg-[#19376d] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <img
-                      src={getImageUrl(skill.imageSrc)}
-                      alt={skill.title}
-                      className="w-14 h-14"
-                    />
+                    {skill.imageSrc ? (
+                      <img
+                        src={getImageUrl(skill.imageSrc)}
+                        alt={skill.title}
+                        className="w-14 h-14 object-contain"
+                      />
+                    ) : (
+                      <span className="text-white text-xl font-bold">
+                        {skill.shortName}
+                      </span>
+                    )}
                   </div>
+
                   <p className="font-medium text-base">{skill.title}</p>
                 </div>
               ))}
@@ -57,6 +64,7 @@ const Experience = () => {
                         {historyItem.organisation}
                       </p>
                     </div>
+
                     <p className="text-gray-400 whitespace-nowrap">
                       {historyItem.startDate} — {historyItem.endDate}
                     </p>
@@ -64,7 +72,10 @@ const Experience = () => {
 
                   <ul className="mt-6 space-y-3 text-gray-300 list-disc list-inside">
                     {historyItem.experiences.map((experience, idx) => (
-                      <li key={idx} className="text-[15px] md:text-base leading-relaxed">
+                      <li
+                        key={idx}
+                        className="text-[15px] md:text-base leading-relaxed"
+                      >
                         {experience}
                       </li>
                     ))}

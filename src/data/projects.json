@@ -1,26 +1,51 @@
 [
   {
-    "title": "Multi-Vendor Shopping Web App",
+    "title": "Chireva Multi-Vendor Shopping Platform",
     "imageSrc": "Assets/Screenshot (18).png",
-    "description": "A responsive Mern stack Multi-vendor Shopping Web App.",
-    "skills": ["MERN", "Tailwind", "Redux", "Socket", "cloudinary", "mailer"],
+    "description": "A full-stack multi-vendor e-commerce platform featuring product management, seller dashboards, secure payments, order management and real-time communication.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redux Toolkit",
+      "Socket.IO",
+      "Cloudinary",
+      "Flutterwave"
+    ],
     "demo": "https://chireva.vercel.app",
     "source": "https://github.com/chikephils/Chireva_Shops"
   },
   {
-    "title": "Chireva Multi-User Home Rentals App",
-    "imageSrc": "Assets/Screenshot (19).png",
-    "description": "A Responsive Web App for Home Rentals, Sales and Short Stay.",
-    "skills": ["MERN", "Axios", "SASS", "Cloudinary", "Material UI"],
-    "demo": "https://chireva-rentals.vercel.app/",
-    "source": "https://github.com/chikephils/rentals"
+    "title": "School Management System",
+    "imageSrc": "Assets/projetImage.png",
+    "description": "A full-stack school management platform with role-based access control, academic structures, student and staff management, course offerings and course registration.",
+    "skills": [
+      "React 19",
+      "TypeScript",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "demo": "https://school-management-system-chi-dusky.vercel.app/",
+    "source": "https://github.com/chikephils/School-management-system"
   },
   {
-    "title": "OrevaPedia social media Web App",
-    "imageSrc": "Assets/Screenshot (20).png",
-    "description": "A Responsive Social media Web Application.",
-    "skills": ["MERN", "bcypt", "yup", "Formic", "React dropzone"],
-    "demo": "https://orevapedia.vercel.app/",
-    "source": "https://github.com/chikephils/Orevapedia"
+    "title": "Chireva Home Rentals Platform",
+    "imageSrc": "Assets/Screenshot (19).png",
+    "description": "A responsive property rental and sales platform supporting property listings, short stays, user profiles and property discovery.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Axios",
+      "SCSS",
+      "Material UI",
+      "Cloudinary"
+    ],
+    "demo": "https://chireva-rentals.vercel.app/",
+    "source": "https://github.com/chikephils/rentals"
   }
 ]

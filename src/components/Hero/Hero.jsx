@@ -19,24 +19,26 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Hi, I'm <span className="text-[#576cbc]">Oreva Philips</span>
             </h1>
-            <p className="text-2xl text-gray-300 mt-4">Software Developer</p>
+
+            <p className="text-2xl md:text-3xl text-gray-300 mt-4">
+              Full-Stack Software Developer
+            </p>
           </motion.div>
 
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
-            className="text-[15px] md:text-lg text-gray-400 max-w-2xl mx-auto md:mx-0"
+            className="text-[15px] md:text-lg text-gray-400 max-w-2xl mx-auto md:mx-0 leading-relaxed"
           >
-            A Software Engineer passionate about creating modern, scalable, and
-            user-friendly web applications leveraging on both Frontend and
-            Backend technologies. I love turning ideas into clean, efficient,
-            and responsive digital experiences. I thrive in Agile teams, enjoy
-            collaborating across design and development, and focus on delivering
-            interfaces that don’t just work, but also feels great to use. Every
-            project I build is guided by the goal to combine performance,
-            usability, and creativity in a way that makes technology feel
-            seamless.
+            I am a Full-Stack Software Developer with experience building and
+            deploying modern web applications. I work across the frontend and
+            backend using React, JavaScript, TypeScript, Node.js, NestJS,
+            MongoDB, and PostgreSQL. From designing responsive user interfaces
+            to developing APIs, implementing authentication, and managing
+            databases, I enjoy turning ideas into practical, scalable
+            applications. I value clean code, continuous learning, and
+            collaborative development.
           </motion.p>
 
           <motion.div
@@ -58,8 +60,9 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/Oreva_resume_Lines.pdf"
+              href="/Oreva_resume1.pdf"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 border border-[#576cbc] hover:bg-white/10 px-8 py-4 rounded-full font-medium transition-all"
             >
               <Download size={20} />
